@@ -8,7 +8,7 @@
     }
 
     main .personagem .imagem {
-        height: 100%;
+      height: 100%;
     }
 
     .conteudo {
@@ -65,16 +65,18 @@
         font-size: 24px;
     }
 
-    .aside{
-        position: S;
-    }
-
     .botoes {
         padding: 20px;
         top: -20%;
     }
 
     .botoes .botao img {
-        max-width: 50px;
+        max-width: 70%px;
+    }
+
+    .personagemDireita{
+        max-width: 100%;
+        object-position: right center;
+        object-fit: cover;
     }
 }
