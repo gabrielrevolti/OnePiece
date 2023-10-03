@@ -37,9 +37,8 @@
 
 
     .botoes {
-        flex-wrap: wrap;
+        overflow-x: scroll;
         flex-direction: row;
-        align-items: flex-end;
         width: 100%;
         padding: 30px;
         align-self: flex-end;
@@ -72,11 +71,5 @@
 
     .botoes .botao img {
         max-width: 70%px;
-    }
-
-    .personagemDireita{
-        max-width: 100%;
-        object-position: right center;
-        object-fit: cover;
     }
 }
