@@ -39,6 +39,7 @@
     .botoes {
         overflow-x: scroll;
         flex-direction: row;
+        height: auto;
         width: 100%;
         padding: 30px;
         align-self: flex-end;
